@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: library
+  datasource:
+    url: jdbc:postgresql://localhost:5433/library
+    username: library
+    password: library
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
